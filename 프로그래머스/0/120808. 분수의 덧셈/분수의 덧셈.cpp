@@ -1,9 +1,9 @@
-#include <string> // 분수의 덧셈
+#include <string>
 #include <vector>
 
 using namespace std;
 
-int gcd(int a, int b) // 최대공약수 구하기
+int gcd(int a, int b)
 {
     while (b != 0)
     {
