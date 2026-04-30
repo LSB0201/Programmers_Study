@@ -10,14 +10,7 @@ map<int, int> count_preq;
 
 for (int i : array)
 {
-	if (count_preq.count(i))
-	{
-		count_preq[i] += 1;
-	}
-	else
-	{
-		count_preq.insert({i, 1});
-	}
+	count_preq[i]++;
 }
 
 for (map<int, int> :: iterator i = count_preq.begin(); i != count_preq.end(); i++)
