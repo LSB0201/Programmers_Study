@@ -4,13 +4,12 @@
 using namespace std;
 
 vector<int> solution(vector<string> strlist) {
-    vector<int> answer(strlist.size());
-    int i = 0;
+    vector<int> answer;
     
     for (const string &str : strlist)
     {
-        answer[i] = str.length();
-        ++i;
+        answer.push_back(str.length());
     }
+    
     return answer;
 }
