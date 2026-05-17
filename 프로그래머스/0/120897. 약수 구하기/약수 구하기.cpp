@@ -7,7 +7,7 @@ using namespace std;
 vector<int> solution(int n) {
     vector<int> answer;
     
-    for (int i = 1; i*i <= n; ++i)
+    for (int i = 1; i <= n/i; ++i)
     {
         if (n % i == 0)
         {
