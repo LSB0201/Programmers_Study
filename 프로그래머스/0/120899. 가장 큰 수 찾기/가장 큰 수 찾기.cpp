@@ -10,10 +10,10 @@ vector<int> solution(vector<int> array) {
     
     sort(i_vec.begin(), i_vec.end());
     
-    int indax = find(array.begin(), array.end(), i_vec.back()) - array.begin();
+    int index = find(array.begin(), array.end(), i_vec.back()) - array.begin();
     
     answer.push_back(i_vec.back());
-    answer.push_back(indax);
+    answer.push_back(index);
     
     return answer;
 }
