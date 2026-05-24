@@ -5,10 +5,12 @@
 using namespace std;
 
 int solution(vector<string> spell, vector<string> dic) {
-    int answer = 0;
     
     for (string s_dic : dic)
     {
+        if (s_dic.length() != spell.size())
+            continue;
+        
         bool flag = true;
         
         for (string s_sp : spell)
