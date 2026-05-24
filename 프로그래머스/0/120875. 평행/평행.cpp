@@ -4,8 +4,8 @@
 using namespace std;
 
 bool isParallel(vector<int>& a, vector<int>& b, vector<int>& c, vector<int>& d) {
-    int dy1 = b[1] - a[1]; // x 변화량
-    int dx1 = b[0] - a[0]; // y 변화량
+    int dy1 = b[1] - a[1];
+    int dx1 = b[0] - a[0];
     
     int dy2 = d[1] - c[1];
     int dx2 = d[0] - c[0];
