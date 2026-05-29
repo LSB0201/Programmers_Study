@@ -7,7 +7,6 @@ using namespace std;
 vector<int> solution(vector<vector<int>> score) {
     vector<int> answer;
     int my_score = 0, o_score = 0;
-
     
     for (vector<int> my : score)
     {
