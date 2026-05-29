@@ -15,7 +15,6 @@ string solution(vector<string> id_pw, vector<vector<string>> db) {
         else if (s_vec[0] == id_pw[0] && s_vec[1] != id_pw[1])
         {
             answer = "wrong pw";
-            
         }
         else
         {
