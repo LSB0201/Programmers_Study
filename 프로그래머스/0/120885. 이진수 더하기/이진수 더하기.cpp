@@ -21,7 +21,7 @@ int binToDec(string str)
     return i_sum;
 }
 
-// 10진수 2진수 변환 함수
+// 10진수 -> 2진수 변환 함수
 string decToBin (int num)
 {
     string s_result = "";
